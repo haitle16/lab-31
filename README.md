@@ -1,42 +1,50 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Redux Lab 31
 
-### Author: Student/Group Name
+### Author: Hai Le
+
+--------------------------------- --------------------------------
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [Store-Connect_Sanbox](https://codesandbox.io/s/yvv4976onv)
+* [Reduce_Sandbox](http://xyz.com)
+
+--------------------------------- --------------------------------
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `app.scss -> app.js`
+Import the stylings into our web application
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `index.js`
+Import app.js and start the APP.
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+###### `store/index.js`
+Import in numbers-reducer and app-reducer.
+Export out a function call with method "createStore".
+
+###### `components/Numbers/number.js`
+Export into app.js and render the div "Hello" component.
+
+###### `app.js`
+constructor() take in `props` and declare the `state`
+
+changeMyName() - return a set of given value and run handleChange function that are pulled in from actions files.
+
+render() - Render the Numbers Class and a div with name gotten from the redux.
+
+Lastly, Export the App, which got called inside index.js
+
+  --------------------------------- --------------------------------
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* On the repl.it Click the `Run` Button to start
+* On the codepen just play with the functionalities on `Browsers`
 
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+ --------------------------------- --------------------------------
 
 #### UML
 Link to an image of the UML for your application and response to events
+![](./asset/uml.jpg)
