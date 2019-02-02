@@ -9,7 +9,7 @@
 
 ### Links and Resources
 * [Store-Connect_Sanbox](https://codesandbox.io/s/yvv4976onv)
-* [Reduce_Sandbox](http://xyz.com)
+* [Reduce_Sandbox](https://codesandbox.io/s/4z3yyvk7y9)
 
 --------------------------------- --------------------------------
 
